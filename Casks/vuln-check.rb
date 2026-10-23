@@ -4,21 +4,21 @@ cask "vuln-check" do
 
   on_macos do
     on_arm do
-      sha256 "e13ac4f38da2a77e01fa1106989288aaf6c32bb08bd5e7d250f2c4c9751618d5"
+      sha256 "d236f8fb2ca952a66f4b96582b7886280aefabd7c7c8fd98a3d527ac8a880dc4"
       url "https://github.com/ciloops/vuln-check/releases/download/v#{version}/vuln-check_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5305f38f188d2603b560a4c202bfc7b44a6218aa7ce5ed4392387ba87f6779d5"
+      sha256 "222bb3c13a62bfe4dca447f0ef7f201beb32c760e2b564f26ae40caac5f37ce3"
       url "https://github.com/ciloops/vuln-check/releases/download/v#{version}/vuln-check_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "4c20e69c39017cd382fd30b17dd336c75a6a8470f429d2fbd6c1bc8e4df8413d"
+      sha256 "20f3309f56fe42a8f4e092c90a6050f9a2fd469b83f45da633e6b4fa6e674ec5"
       url "https://github.com/ciloops/vuln-check/releases/download/v#{version}/vuln-check_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b3702d4544f7ceeb8da3325bac6ae7d0cda4d22e2d0024231890c35800211afa"
+      sha256 "d31e23ed9cbab577ecf755bdbb49681a8aca8c86fb13446b75ebd931acfd25c1"
       url "https://github.com/ciloops/vuln-check/releases/download/v#{version}/vuln-check_#{version}_linux_amd64.tar.gz"
     end
   end
